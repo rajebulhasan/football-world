@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: blue;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+
+}
+.container h1{
+    color:white;
+    font-size: 40px;
+}
+.container:hover{
+    background-color: black;
+    transition: 1.3s ease-out;
+}
+.banner img{
+    width: 450px;
+    height: 400px;
+    margin-left: 300px;
+}
+.btn{
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: 700;
+    padding:10px 20px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+    transition: 1s ease-out;
+}
+
+.gallery{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:25px;
+    padding: 50px;
+    margin-left: 15%;
+    border: 1px solid white;
+    
+}
+
+.player img{
+    width:100%;
+    text-align:center; 
+}
+.player{
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    padding: 10px;
+}
+p{
+    text-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.logo img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 45%;
+}
+li{
+    display: inline-block;
+}
+
+.foot{
+    text-align: center;
+    padding-bottom: 20px;
+}
